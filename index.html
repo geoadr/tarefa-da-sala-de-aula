@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>IF Fofoquiano</title>
+<style>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #1c6fce;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+nav {
+    background-color: #192036;
+    overflow: hidden;
+}
+nav a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+nav a:hover {
+    background-color: #62a1ff;
+    color: black;
+}
+.container {
+    padding: 20px;
+}
+.div1 {
+    background-color: #ffffff;
+    padding: 20px;
+    text-align: justify;
+}
+.div2 {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.card {
+    background-color: #ffffff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    width: 30%;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+.card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+.div3 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.div3 .text-box {
+    width: 48%;
+    padding: 10px;
+    background-color: #ffffff;
+    text-align: justify;
+}
+footer {
+    background-color: #192036;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+</style>
+</head>
+<body>
+<header>
+    <h1>IF Fofoquiano</h1>
+    <p>Tudo o que acontece nos bastidores do IF Goiano Morrinhos, você vê aqui!</p>
+</header>
+<nav>
+    <a href="#home">Home</a>
+    <a href="#fofocas">Fofocas Recentes</a>
+    <a href="#professores">Professores</a>
+    <a href="#eventos">Eventos</a>
+    <a href="#contato">Contato</a>
+</nav>
+<div class="container">
+    <div class="div1">
+        <h2>Bem-vindo ao IF Fofoquiano!</h2>
+        <p>
+Somos o portal não-oficial mais bem informado (ou não!) sobre o que realmente acontece no IF Goiano - Campus Morrinhos. 
+Aqui você encontra as fofocas mais quentes, as tretas mais aleatórias e aquelas histórias que todo mundo finge que não sabe. 
+Desde as reuniões secretas nos corredores até as confusões inesperadas nas aulas, nada escapa do nosso radar. 
+Nosso objetivo? Divertir você com o que acontece por trás das câmeras, com muito bom humor e aquele toque de mistério. 
+Então, relaxe, pegue a pipoca e prepare-se para descobrir o lado mais leve e irreverente da vida no IF. 
+Lembre-se: não leve tudo tão a sério — afinal, é tudo por diversão!
+        </p>
+    </div>
+
+    <div class="div2">
+        <div class="card">
+            <img src="tretatcc.jpg" alt="Treta TCC">
+            <h3>Treta no grupo de TCC</h3>
+            <p>Fontes anônimas garantem que a discussão acalorada sobre quem faria o slide virou caso de estudo. 
+            A briga começou quando um dos integrantes simplesmente desapareceu das reuniões, deixando todo mundo no prejuízo. 
+            Enquanto isso, o orientador tenta mediar, mas parece que a situação só piora com as mensagens no grupo que não param. 
+            Será que o projeto vai acabar a tempo? Só o tempo dirá!</p>
+        </div>
+
+        <div class="card">
+            <img src="crush laboratório.jpg" alt="Crush Laboratório">
+            <h3>O crush secreto do laboratório</h3>
+            <p>
+Boatos indicam que alguém anda "esquecendo" o jaleco só pra ter uma desculpa de pedir ajuda... Quem será? 
+Dizem que o crush é daquele aluno tímido da noite, que fica mais tempo estudando do que conversando. 
+Já teve até quem tentasse organizar uma “armadilha” no laboratório só pra ver se o crush finalmente aparecia! 
+A torcida está grande para que role um romance entre tubos de ensaio e planilhas.
+            </p>
+        </div>
+
+        <div class="card">
+            <img src="projetorsumido.jpg" alt="Projetor Sumido">
+            <h3>Cadê o projetor da sala L4 do Olimpo?</h3>
+            <p>
+O sumiço misterioso do projetor já virou lenda urbana. Será obra de algum aluno ou sabotagem interdepartamental? 
+O fato é que há semanas ninguém consegue dar aula na sala l4 com os recursos que precisam. 
+Professores estão fazendo mutirão para levar seus próprios equipamentos, enquanto o setor administrativo tenta desvendar o mistério. 
+Alguns suspeitam até de uma conspiração dos departamentos para boicotar as aulas à distância. 
+O caso segue aberto e promete muitas reviravoltas!
+            </p>
+        </div>
+    </div>
+
+    <div class="div3">
+        <div class="text-box">
+            <h3>Opinião: Vale colar na prova online?</h3>
+            <p>
+Em tempos de avaliações remotas, será que a cola virou regra? Veja o que pensam os alunos (e o que os professores fingem não saber).
+            </p>
+            <p>
+Fizemos uma enquete anônima entre 50 estudantes do IF Goiano - Morrinhos e o resultado foi surpreendente: 72% admitiram já ter recorrido 
+a “consultas não autorizadas” em provas online, enquanto apenas 15% disseram que jamais colariam, nem mesmo sob ameaça de DP.
+            </p>
+            <p>
+“Se a prova é online, o Google faz parte do material didático”, brinca um aluno do TSI. Por outro lado, alguns professores 
+defendem que a verdadeira prova é o entendimento e não a decoreba: “Se só copiar e colar, vai reprovar na prática”, afirma um docente.
+            </p>
+            <p>
+Moral da história: a discussão segue aberta, mas a criatividade do estudante brasileiro continua invicta!
+            </p>
+        </div>
+
+        <div class="text-box">
+            <h3>Análise: quem anda escondendo os marcadores?</h3>
+            <p>
+Professores denunciam que os marcadores de quadro branco somem misteriosamente toda segunda-feira. Coincidência ou sabotagem?
+            </p>
+            <p>
+Segundo relatos, o setor de Matemática foi o primeiro a notar o sumiço em série: “Todo dia tem reunião pra comprar mais marcadores”, conta 
+um professor que prefere não se identificar. Já na área do BCC, suspeita-se que o culpado seja um “colecionador anônimo” — uma espécie de 
+Robin Hood das canetas.
+            </p>
+            <p>
+O Diretório Acadêmico lançou a campanha “Devolva o Marcador”, mas até agora o mistério permanece sem solução.
+            </p>
+            <p>
+Há quem acredite que tudo não passa de uma conspiração para obrigar os professores a usarem mais slides... A investigação continua!
+            </p>
+        </div>
+    </div>
+</div>
+<footer>
+    <p>&copy; 2025 IF Fofoquiano — Este site não é oficial.</p>
+    <p>Contato: fofoca@ifgoiano.mh.br</p>
+</footer>
+</body>
+</html>
